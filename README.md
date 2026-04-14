@@ -60,7 +60,6 @@ It:
 ---
 
 ## ⚙️ How It Works
-## ⚙️ How It Works
 
 1. Pacifica APIs provide real-time trading data  
 2. Backend processes:
