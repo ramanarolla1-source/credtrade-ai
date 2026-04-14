@@ -1,7 +1,11 @@
 # CredTrade AI — Proof of Skill for Traders
 
 > Social trading leaderboard powered by AI credibility scoring using Pacifica APIs
+## 🚀 Live Demo
 
+🎥 Demo Video: [YouTube Link]  
+📄 One Pager: [Google Docs Link]  
+🌐 Live App: [If available]
 ---
 
 ## 🚀 Overview
@@ -56,26 +60,21 @@ It:
 ---
 
 ## ⚙️ How It Works
+## ⚙️ How It Works
 
-1. Fetch trading data from Pacifica APIs  
-2. Process key metrics (PnL, volatility, drawdowns)  
-3. Apply scoring algorithm to compute credibility score  
-4. Rank traders dynamically  
-5. Display results via web dashboard
-   Pacifica API → Backend → AI Scoring Engine → Frontend Dashboard
-   
-- **Backend**: FastAPI / Node.js  
-- **AI Engine**: Python (pandas + statistical scoring)  
-- **Frontend**: Next.js  
+1. Pacifica APIs provide real-time trading data  
+2. Backend processes:
+   - PnL
+   - Drawdowns
+   - Trade frequency  
+3. AI scoring engine computes credibility score  
+4. Traders are classified into:
+   - Skilled
+   - Opportunistic
+   - High-Risk  
+5. Frontend displays leaderboard and insights  
 
----
-
-## 🧪 Demo
-
-🎥 Demo Video: *[Add YouTube Link]*  
-🌐 Live App: *[Optional]*  
-
----
+----
 
 ## 📄 One Pager
 
@@ -154,39 +153,5 @@ MIT License
 
 Built for the Pacifica Hackathon.
 
----
-
-# 🔥 What makes this strong
-
-- Clear **problem → solution → demo flow**
-- Uses **judge-friendly language**
-- Shows **technical depth without overcomplicating**
-- Aligns perfectly with your one-pager
-
----
-
-# ⚠️ What you MUST update
-
-Before submission, replace:
-
-- `YOUR_USERNAME`
-- YouTube link
-- Google Docs one-pager link
-- (Optional) Live demo link
-
----
-
-# 👉 Next Step (high priority)
-
-Now we move to:
-
-👉 **“Starter code + folder structure”**  
-or  
-👉 **“AI scoring logic implementation”**
-
-This is where your project becomes *real*.
-   
-
----
-
+----
 ## 🏗️ Architecture
