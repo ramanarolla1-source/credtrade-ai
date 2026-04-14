@@ -1,4 +1,3 @@
-nano main.py
 from fastapi import FastAPI
 from pydantic import BaseModel
 from scoring import credibility_score, classify_trader
@@ -32,4 +31,4 @@ def score_trader(data: TraderData):
         "credibility_score": score,
         "classification": category
     }
-python3 -m uvicorn main:app --reload
+
