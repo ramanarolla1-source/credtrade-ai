@@ -17,17 +17,31 @@ Unlike traditional leaderboards that rank traders purely based on profits, CredT
 ---
 ## 🏗️ Architecture
 
-Pacifica APIs  
+**Data Layer**
+- Pacifica APIs  
+
 ↓  
-Backend API (FastAPI / Node.js)  
+
+**Backend Layer**
+- FastAPI / Node.js  
+- Data Processing (PnL, Drawdown, Metrics)  
+
 ↓  
-Data Processing Layer (PnL, Drawdown, Trade Metrics)  
+
+**AI Layer**
+- Credibility Scoring Engine  
+
 ↓  
-AI Credibility Scoring Engine  
+
+**Application Layer**
+- Database  
+- Frontend (Next.js)  
+
 ↓  
-Database + Frontend (Next.js)  
-↓  
-Leaderboard + Trader Profiles  
+
+**User Interface**
+- Leaderboard  
+- Trader Profiles  
 
 
 ## 🎯 Problem
