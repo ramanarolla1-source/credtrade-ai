@@ -1,0 +1,5 @@
+## 🧠 Implementation
+
+The credibility scoring engine is implemented in Python and evaluates traders using risk-adjusted metrics.
+
+See: `/backend/scoring.py`
