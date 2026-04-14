@@ -74,6 +74,15 @@ It:
 5. Frontend displays leaderboard and insights  
 
 ----
+## 📊 Example Credibility Insight
+
+Trader A:
+- High returns but large drawdowns → ⚠️ High-Risk  
+- Credibility Score: 42/100  
+
+Trader B:
+- Moderate returns + consistent performance → ✅ Skilled  
+- Credibility Score: 82/100  
 
 ## 📄 One Pager
 
@@ -154,3 +163,22 @@ Built for the Pacifica Hackathon.
 
 ----
 ## 🏗️ Architecture
+
+Pacifica API → Backend (FastAPI) → AI Scoring Engine → Frontend (Next.js)
+Why This Matters
+## 🌍 Why This Matters
+
+CredTrade AI reduces risk in social trading by helping users identify truly skilled traders instead of following short-term winners driven by luck.
+
+This builds trust and transparency in decentralized finance.
+Hackathon Scope Clarification
+## 🧪 Hackathon Scope
+
+This project demonstrates:
+- Credibility scoring engine (core innovation)
+- Leaderboard UI
+- Pacifica data integration (or simulated data if applicable)
+
+Future versions will expand into real-time execution and copy trading.
+
+
