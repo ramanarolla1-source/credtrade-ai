@@ -20,5 +20,4 @@ for name, trader in [("Trader A", trader_a), ("Trader B", trader_b)]:
 
     print(f"{name}: Score = {score}, Category = {category}")
   ▶️ Run it
-cd backend
-python demo.py
+
