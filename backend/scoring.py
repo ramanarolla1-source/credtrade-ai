@@ -1,4 +1,3 @@
-nano scoring.py
 import numpy as np
 
 def calculate_sharpe(returns):
@@ -45,5 +44,5 @@ def classify_trader(score):
         return "🟡 Opportunistic"
     else:
         return "🔴 High Risk"       
-        python3 -m uvicorn main:app --reload
+        
  
