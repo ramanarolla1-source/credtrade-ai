@@ -15,20 +15,19 @@ CredTrade AI is a social trading analytics platform that distinguishes **skilled
 Unlike traditional leaderboards that rank traders purely based on profits, CredTrade AI evaluates **risk-adjusted performance, consistency, and trading behavior** to provide a more reliable measure of trader skill.
 
 ---
-🏗️ Architecture
+## 🏗️ Architecture
 
-Pacifica APIs
-↓
-Backend API (FastAPI / Node.js)
-↓
-Data Processing Layer (PnL, Drawdown, Trade Metrics)
-↓
-AI Credibility Scoring Engine
-↓
-Database + Frontend (Next.js)
-↓
-Leaderboard + Trader Profiles
-
+Pacifica APIs  
+↓  
+Backend API (FastAPI / Node.js)  
+↓  
+Data Processing Layer (PnL, Drawdown, Trade Metrics)  
+↓  
+AI Credibility Scoring Engine  
+↓  
+Database + Frontend (Next.js)  
+↓  
+Leaderboard + Trader Profiles  
 
 
 ## 🎯 Problem
