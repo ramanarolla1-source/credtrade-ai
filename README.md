@@ -99,7 +99,49 @@ It:
    - Skilled
    - Opportunistic
    - High-Risk  
-5. Frontend displays leaderboard and insights  
+5. Frontend displays leaderboard and insights
+
+   Proof of Work
+   ## 📊 Sample Output
+
+Example Credibility Score:
+
+Trader A  
+- Return: +120%  
+- Max Drawdown: -60%  
+- Score: 38/100 → High Risk  
+
+Trader B  
+- Return: +45%  
+- Max Drawdown: -10%  
+- Score: 82/100 → Skilled
+- ## 🧠 Scoring Logic (Current Implementation)
+
+The current MVP uses a rule-based scoring system:
+
+- Sharpe Ratio → 40%
+- Max Drawdown → 30%
+- Consistency → 20%
+- Volatility → 10%
+
+This will evolve into ML-based scoring in future versions.
+## 🎬 Demo Flow
+
+1. Open leaderboard  
+2. View ranked traders  
+3. Select a trader  
+4. View credibility breakdown  
+5. Understand risk vs return behavior
+   backend/
+frontend/
+docs/
+data/
+## 🔗 Why Pacifica
+
+CredTrade AI leverages Pacifica’s trading infrastructure to:
+- Access real trading data  
+- Build analytics on top of perps markets  
+- Enable composable DeFi intelligence tools  
 
 ----
 ## 📊 Example Credibility Insight
