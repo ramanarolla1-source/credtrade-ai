@@ -92,7 +92,10 @@ This project demonstrates how an AI agent evaluates trader credibility.
 | Trader C | 31   | 🔴 High Risk |
 
 ---
+## 📂 Project Structure
 
+- `/backend` – AI scoring engine  
+- `/frontend` – Leaderboard interface  
 ## 🧪 Sample Input
 
 ```json
