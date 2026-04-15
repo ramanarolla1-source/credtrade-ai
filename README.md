@@ -2,9 +2,11 @@
 
 ### AI-Powered Social Trading Credibility Engine
 
-🎥 Demo Video: [YouTube Link]  
-📄 One Pager: [Google Docs Link]  
-🌐 Live App: [If available]
+## 🔗 Links
+
+- 🎥 Demo Video: [YouTube Link]  
+- 📄 One Pager: [Google Docs Link]  
+- 🌐 Live App: [If available]  
 
 ---
 
@@ -16,7 +18,7 @@ CredTrade AI Agent is an AI-driven system that evaluates trader performance and 
 
 ## 🚨 Problem
 
-Social trading platforms reward **short-term gains**, not real skill.
+Social trading platforms today reward **short-term gains**, not real skill.
 
 This leads to:
 - Misleading leaderboards  
