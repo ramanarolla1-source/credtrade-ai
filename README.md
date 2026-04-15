@@ -95,6 +95,7 @@ This project demonstrates how an AI agent evaluates trader credibility.
   "equity_curve": [100, 105, 110],
   "win_rate": 0.75
 }
+
 📈 Future Scope
 🔗 Integration with Pacifica APIs
 ⛓️ On-chain trader data analysis
@@ -113,5 +114,3 @@ Python
 FastAPI
 NumPy
 (Future: Pacifica APIs, Web3 data)
-
-
