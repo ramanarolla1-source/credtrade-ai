@@ -1,286 +1,100 @@
-# CredTrade AI — Proof of Skill for Traders
-
-> Social trading leaderboard powered by AI credibility scoring using Pacifica APIs
-## 🚀 Live Demo
-
 🎥 Demo Video: [YouTube Link]  
 📄 One Pager: [Google Docs Link]  
 🌐 Live App: [If available]
 ---
+# 🚀 CredTrade AI Agent
 
-## 🚀 Overview
+### AI-Powered Social Trading Credibility Engine
 
-CredTrade AI is a social trading analytics platform that distinguishes **skilled traders from lucky ones** using AI-powered credibility scoring.
-
-Unlike traditional leaderboards that rank traders purely based on profits, CredTrade AI evaluates **risk-adjusted performance, consistency, and trading behavior** to provide a more reliable measure of trader skill.
-
----
-## 🏗️ Architecture
-
-**Data Layer**
-- Pacifica APIs  
-
-↓  
-
-**Backend Layer**
-- FastAPI / Node.js  
-- Data Processing (PnL, Drawdown, Metrics)  
-
-↓  
-
-**AI Layer**
-- Credibility Scoring Engine  
-
-↓  
-
-**Application Layer**
-- Database  
-- Frontend (Next.js)  
-
-↓  
-
-**User Interface**
-- Leaderboard  
-- Trader Profiles  
-
-
-## 🎯 Problem
-
-Current social trading platforms:
-- Reward short-term profits over long-term consistency  
-- Promote high-risk trading behavior  
-- Mislead users into following unreliable traders  
-
-There is no standardized way to evaluate **true trading skill vs randomness**.
+CredTrade AI Agent is an AI-driven system that evaluates trader performance and ranks them based on **true skill vs luck**, using risk-adjusted metrics and behavioral consistency.
 
 ---
 
-## 💡 Solution
+## 🧠 What This Agent Does
 
-CredTrade AI introduces an **AI-driven credibility layer** on top of Pacifica trading data.
+CredTrade AI Agent analyzes trader performance using:
 
-It:
-- Analyzes on-chain trading activity  
-- Computes risk-aware performance metrics  
-- Ranks traders based on credibility, not just PnL  
+- 📊 Risk-adjusted returns (Sharpe-like scoring)
+- 📉 Maximum drawdown (risk exposure)
+- 🎯 Win-rate consistency
+
+It classifies traders into:
+
+- 🟢 Skilled Traders  
+- 🟡 Opportunistic Traders  
+- 🔴 High-Risk / Lucky Traders  
 
 ---
 
-## 🧠 Key Features
+## 🚨 Problem
 
-- **AI Credibility Score**  
-  Evaluates traders using Sharpe ratio, drawdowns, and consistency  
+Social trading platforms today reward **short-term gains**, not real skill.
 
-- **Risk-Adjusted Leaderboard**  
-  Highlights sustainable performers instead of high-risk winners  
+This leads to:
+- Misleading leaderboards
+- Copy trading losses
+- Inability to distinguish skilled vs lucky traders
 
-- **Trader Classification**  
-  - 🟢 Skilled  
-  - 🟡 Opportunistic  
-  - 🔴 High-Risk  
+---
 
-- **Trader Profiles**  
-  Detailed insights into performance and behavior  
+## ✅ Solution
 
-- **Pacifica Integration**  
-  Uses real trading data via Pacifica APIs  
+CredTrade AI Agent introduces a **Credibility Score** that evaluates traders based on:
+
+- Consistency over time  
+- Risk management  
+- Sustainable performance  
 
 ---
 
 ## ⚙️ How It Works
 
-1. Pacifica APIs provide real-time trading data  
-2. Backend processes:
-   - PnL
-   - Drawdowns
-   - Trade frequency  
-3. AI scoring engine computes credibility score  
-4. Traders are classified into:
-   - Skilled
-   - Opportunistic
-   - High-Risk  
-5. Frontend displays leaderboard and insights
-
-   Proof of Work
-   ## 📊 Sample Output
-
-Example Credibility Score:
-
-Trader A  
-- Return: +120%  
-- Max Drawdown: -60%  
-- Score: 38/100 → High Risk  
-
-Trader B  
-- Return: +45%  
-- Max Drawdown: -10%  
-- Score: 82/100 → Skilled
-- ## 🧠 Scoring Logic (Current Implementation)
-
-The current MVP uses a rule-based scoring system:
-
-- Sharpe Ratio → 40%
-- Max Drawdown → 30%
-- Consistency → 20%
-- Volatility → 10%
-
-This will evolve into ML-based scoring in future versions.
-## 🎬 Demo Flow
-
-1. Open leaderboard  
-2. View ranked traders  
-3. Select a trader  
-4. View credibility breakdown  
-5. Understand risk vs return behavior
-   backend/
-frontend/
-docs/
-data/
-## 🔗 Why Pacifica
-
-CredTrade AI leverages Pacifica’s trading infrastructure to:
-- Access real trading data  
-- Build analytics on top of perps markets  
-- Enable composable DeFi intelligence tools  
-
-----
-## 📊 Example Credibility Insight
-
-Trader A:
-- High returns but large drawdowns → ⚠️ High-Risk  
-- Credibility Score: 42/100  
-
-Trader B:
-- Moderate returns + consistent performance → ✅ Skilled  
-- Credibility Score: 82/100  
-
-## 📄 One Pager
-
-📄 View One Pager: *[Add Google Docs Link]*  
+1. Collect trader data (returns, equity curve, win rate)
+2. Compute:
+   - Sharpe-like score
+   - Drawdown penalty
+   - Consistency score
+3. Generate a final **Credibility Score**
+4. Classify trader into category
 
 ---
 
-## 🛠️ Tech Stack
-
-- Pacifica APIs  
-- Python (pandas, numpy)  
-- FastAPI / Node.js  
-- Next.js  
-- Optional: LLM for explanation layer  
-
----
-
-## ▶️ Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/credtrade-ai.git
-cd credtrade-ai
-2. Setup environment
-cp .env.example .env
-3. Install dependencies
-# backend
-cd backend
-pip install -r requirements.txt
-
-# frontend
-cd ../frontend
-npm install
-4. Run the application
-# backend
-uvicorn main:app --reload
-
-# frontend
-npm run dev
-📊 Credibility Scoring Logic (Simplified)
-
-The credibility score is computed using:
-
-Risk-adjusted return (Sharpe Ratio)
-Maximum drawdown
-Trade consistency
-Volatility exposure
-
-Score = Weighted combination of these metrics
-🛣️ Roadmap
-Q2 2026
-MVP with scoring engine
-Pacifica API integration
-Leaderboard + profiles
-Q3 2026
-AI explanations
-Social features (follow, watchlist)
-UI/UX improvements
-Q4 2026
-On-chain reputation system
-Copy trading
-DAO governance
-🌍 Impact
-Enables safer trading decisions
-Promotes responsible trading behavior
-Builds trust in decentralized finance ecosystems
-🤝 Contributing
-
-Contributions are welcome! Please open issues or submit pull requests.
-
-📜 License
-
-MIT License
-
-🙌 Acknowledgements
-
-Built for the Pacifica Hackathon.
-
-----
 ## 🏗️ Architecture
 
-Pacifica API → Backend (FastAPI) → AI Scoring Engine → Frontend (Next.js)
-Why This Matters
-## 🌍 Why This Matters
+Pacifica APIs  
+↓  
+Backend Processing Layer  
+↓  
+AI Credibility Scoring Engine  
+↓  
+Database / Storage  
+↓  
+Leaderboard + Trader Profiles  
 
-CredTrade AI reduces risk in social trading by helping users identify truly skilled traders instead of following short-term winners driven by luck.
+---
 
-This builds trust and transparency in decentralized finance.
-Hackathon Scope Clarification
-## 🧪 Hackathon Scope
-
-This project demonstrates:
-- Credibility scoring engine (core innovation)
-- Leaderboard UI
-- Pacifica data integration (or simulated data if applicable)
-
-Future versions will expand into real-time execution and copy trading.
-## 🧠 What This Agent Does
-
-CredTrade AI Agent evaluates traders using:
-- Risk-adjusted returns (Sharpe-like scoring)
-- Drawdown analysis
-- Win-rate consistency
-
-It distinguishes:
-✔ Skilled traders  
-✔ Opportunistic traders  
-✔ High-risk / lucky traders
 ## 🎬 Demo
 
-This project demonstrates how an AI agent can evaluate trader credibility.
+This project demonstrates how an AI agent evaluates trader credibility.
 
-Example Output:
+### Example:
 
-Trader A → Score: 82 → Skilled  
-Trader B → Score: 54 → Opportunistic  
-Trader C → Score: 31 → High Risk
-## 🚨 Problem
+| Trader | Score | Classification |
+|-------|------|---------------|
+| Trader A | 82 | 🟢 Skilled |
+| Trader B | 54 | 🟡 Opportunistic |
+| Trader C | 31 | 🔴 High Risk |
 
-Social trading platforms reward short-term gains, not real skill.
+---
 
-Users cannot distinguish:
-- Skilled traders
-- Lucky traders
+## 🧪 Sample Input
 
-## ✅ Solution
-
-CredTrade AI Agent introduces credibility scoring to rank traders based on consistent performance.
+```json
+{
+  "returns": [0.05, 0.04, 0.06],
+  "equity_curve": [100, 105, 110],
+  "win_rate": 0.75
+}
 
 
 
