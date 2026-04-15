@@ -52,7 +52,22 @@ The agent analyzes trader performance using:
 - 🔴 High-Risk / Lucky Traders  
 
 ---
+## 🧾 Evidence of Execution
 
+The CredTrade AI Agent has been tested using sample trader data.
+
+### Sample Input
+
+- Returns: [0.05, 0.04, 0.06]  
+- Equity Curve: [100, 105, 110]  
+- Win Rate: 0.75  
+
+### Output
+
+| Metric | Value |
+|--------|------|
+| Credibility Score | 82 |
+| Classification | 🟢 Skilled |
 ## ⚙️ How It Works
 
 1. Collect trader data (returns, equity curve, win rate)  
