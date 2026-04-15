@@ -95,6 +95,23 @@ This project demonstrates how an AI agent evaluates trader credibility.
   "equity_curve": [100, 105, 110],
   "win_rate": 0.75
 }
-
+📈 Future Scope
+🔗 Integration with Pacifica APIs
+⛓️ On-chain trader data analysis
+🤖 Autonomous trading agents
+📊 Real-time leaderboard updates
+🛣️ Roadmap
+Q2 2026
+MVP AI Credibility Engine
+Basic leaderboard system
+Q3 2026
+Pacifica API integration
+Real-time trader analytics
+Advanced scoring models
+🧩 Tech Stack
+Python
+FastAPI
+NumPy
+(Future: Pacifica APIs, Web3 data)
 
 
