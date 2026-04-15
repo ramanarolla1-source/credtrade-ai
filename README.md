@@ -250,5 +250,37 @@ This project demonstrates:
 - Pacifica data integration (or simulated data if applicable)
 
 Future versions will expand into real-time execution and copy trading.
+## 🧠 What This Agent Does
+
+CredTrade AI Agent evaluates traders using:
+- Risk-adjusted returns (Sharpe-like scoring)
+- Drawdown analysis
+- Win-rate consistency
+
+It distinguishes:
+✔ Skilled traders  
+✔ Opportunistic traders  
+✔ High-risk / lucky traders
+## 🎬 Demo
+
+This project demonstrates how an AI agent can evaluate trader credibility.
+
+Example Output:
+
+Trader A → Score: 82 → Skilled  
+Trader B → Score: 54 → Opportunistic  
+Trader C → Score: 31 → High Risk
+## 🚨 Problem
+
+Social trading platforms reward short-term gains, not real skill.
+
+Users cannot distinguish:
+- Skilled traders
+- Lucky traders
+
+## ✅ Solution
+
+CredTrade AI Agent introduces credibility scoring to rank traders based on consistent performance.
+
 
 
