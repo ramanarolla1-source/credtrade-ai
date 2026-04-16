@@ -4,9 +4,9 @@
 
 ## 🔗 Links
 
-- 🎥 Demo Video: [YouTube Link]  
-- 📄 One Pager: [Google Docs Link]  
-- 🌐 Live App: [If available]  
+- 🎥 Demo Video: https://youtu.be/nvolTrtDAoI
+- 📄 One Pager: https://docs.google.com/document/d/1-XeiHQQ8YCJCzIGcwo6KWDuIb44H78s8AElxLQgJkIM/edit?usp=sharing
+- 🌐 Live App: Coming Soon
 
 ---
 
